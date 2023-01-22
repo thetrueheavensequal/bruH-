@@ -25,7 +25,7 @@
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
         },
-        "DB_URL": {
+        "ORMONGO_RS_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
             "value": ""
         },
