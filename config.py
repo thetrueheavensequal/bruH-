@@ -18,6 +18,6 @@ FLOOD = int(os.environ.get("FLOOD", "10"))
 
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/8713332eff3b75c095754.jpg")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2064735436').split()]
 
 PORT = os.environ.get('PORT', '8080')
