@@ -12,7 +12,7 @@ FORCE_SUB = os.environ.get("FORCE_SUB", "")
 
 DB_NAME = os.environ.get("DB_NAME","")     
 
-DB_URL = os.environ.get("DB_URL","")
+ORMONGO_RS_URL = os.environ.get("ORMONGO_RS_URL","")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
